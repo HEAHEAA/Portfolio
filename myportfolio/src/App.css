@@ -1,3 +1,18 @@
-.bg{
-    background-color: pink;
+@font-face {
+    font-family: 'NanumSquareNeo-Variable';
+    src: url('../src/assets/Font/nanum/NanumSquareNeoOTF-Rg.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'kotra';
+    src: url('../src/assets/Font/kotra/KOTRA_BOLD.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.App{
+    font-family: 'NanumSquareNeo-Variable', serif;
+    font-size: 1rem;
 }
