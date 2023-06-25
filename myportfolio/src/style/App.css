@@ -1,13 +1,6 @@
 @font-face {
     font-family: 'NanumSquareNeo-Variable';
-    src: url('src/assets/Font/nanum/NanumSquareNeoOTF-Rg.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'kotra';
-    src: url('src/assets/Font/kotra/KOTRA_BOLD.woff') format('woff');
+    src: url('../assets/Font/nanum/NanumSquareNeoOTF-Rg.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
@@ -15,15 +8,13 @@
 
 @font-face {
     font-family: 'SUITE-Regular';
-    src: url('src/assets/Font/suite/SUITE-Regular.woff2') format('woff2');
+    src: url('../assets/Font/suite/SUITE-Regular.woff2') format('woff2');
     font-weight: 400;
     font-style: normal;
 }
 
-
-
 .App{
-    font-family: 'SUITE-Regular';
+    font-family: SUITE-Regular, serif;
     font-size: 1rem;
 }
 

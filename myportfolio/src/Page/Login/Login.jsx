@@ -61,7 +61,6 @@ function Login(){
                         }}
                     >
                         <Typography component="h1" variant="h4" style={{
-                            fontFamily: 'kotra',
                             fontWeight: 'bold',
                             paddingTop: "10px"
                         }}>
