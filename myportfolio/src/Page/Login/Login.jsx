@@ -12,6 +12,7 @@ import VisibilityOffIcon from "@mui/icons-material/VisibilityOff";
 import { BiLogIn } from "react-icons/bi";
 import {useState} from "react";
 import {IconButton, InputAdornment} from "@mui/material";
+import {useNavigate} from "react-router-dom";
 
 
 function Copyright(props) {
@@ -27,6 +28,8 @@ function Copyright(props) {
     );
 }
 function Login(){
+    const navigate = useNavigate();
+
     const [values, setValues] = useState({
         showPass: false
     })
@@ -121,7 +124,9 @@ function Login(){
                                Login <BiLogIn/>
                             </Button>
                         </Box>
-                        <p className="login-sign-p">
+                        <p className="login-sign-p" onClick={()=>{
+                            navigate('/signUp');
+                        }}>
                             회원가입이 필요하신가요?
                         </p>
                     </Box>

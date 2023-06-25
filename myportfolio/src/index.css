@@ -12,16 +12,16 @@
     font-style: normal;
 }
 
+
 @font-face {
-    font-family: 'suite';
-    src: url('src/assets/Font/suite/SUITE-Medium.woff2') format('woff2');
-    font-weight: normal;
+    font-family: 'SUITE-Regular';
+    src: url('src/assets/Font/suite/SUITE-Regular.woff2') format('woff2');
+    font-weight: 400;
     font-style: normal;
 }
 
-
 :root {
-    font-family: NanumSquareNeo-Variable, serif;
+    font-family: 'SUITE-Regular', ui-serif;
     color: rgba(255, 255, 255, 0.87);
     /*background-color: #242424;*/
     /*background: linear-gradient(#4c5061, #2b2e38);*/

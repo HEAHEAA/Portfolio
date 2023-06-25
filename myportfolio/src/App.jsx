@@ -8,6 +8,10 @@ function App() {
         palette: {
             mode: 'dark',
         },
+        typography: {
+            fontFamily: 'suite',
+            fontWeight: 300
+        }
     });
     return (
         <div className="App">
