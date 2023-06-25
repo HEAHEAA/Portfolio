@@ -3,6 +3,7 @@ import {Route, Routes} from "react-router-dom";
 import Login from "./Page/Login/Login.jsx";
 import SignUpPage from "./Page/SignUp/SignUpPage.jsx";
 import {createTheme, ThemeProvider} from "@mui/material";
+import Main from "./Page/Main.jsx";
 function App() {
     const darkTheme = createTheme({
         palette: {
@@ -19,6 +20,8 @@ function App() {
                 <Routes>
                     <Route path="/" element={<Login/>}/>
                     <Route path="/signUp" element={<SignUpPage/>}/>
+
+                    <Route path="/main" element={<Main/>} />
                 </Routes>
             </ThemeProvider>
         </div>

@@ -41,6 +41,9 @@ function Login(){
         });
     };
 
+    const [id,setId] = useState('admin');
+    const [pw,setPw] = useState('1234');
+
 
 
 
@@ -78,11 +81,13 @@ function Login(){
                                 required
                                 fullWidth
                                 label="ID"
+                                onChange={(e) => setId(e.target.value)}
                                 autoFocus
                             />
                             <TextField
                                 margin="normal"
                                 id="outlined-basic"
+                                onChange={(e) => setPw(e.target.value)}
                                 type={values.showPass ? "text" : "password"}
                                 InputProps={{
                                     endAdornment: (
@@ -118,6 +123,13 @@ function Login(){
                                 style={{
                                     backgroundColor: "#4c5061",
                                     color: "white"
+                                }}
+                                onClick={()=>{
+                                    if(id === 'admin' && pw === '1234'){
+                                        navigate('/main');
+                                    }else {
+                                        alert('아이디 또는 비밀번호가 틀렸습니다.')
+                                    }
                                 }}
                             >
                                Login <BiLogIn/>

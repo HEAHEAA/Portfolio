@@ -20,7 +20,7 @@
     /*background: linear-gradient(#4c5061, #2b2e38);*/
     background: linear-gradient(#3b3e4b, #1f222a);
     width: 100%;
-    height: 100vh;
+    height: 100%;
     padding: 0;
     overflow: auto;
 }

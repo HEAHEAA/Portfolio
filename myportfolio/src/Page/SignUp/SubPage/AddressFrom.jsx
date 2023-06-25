@@ -41,6 +41,7 @@ function AddressFrom(){
                             required
                             label="아이디"
                             id="id"
+                            name="id"
                             fullWidth
                             autoComplete="given-name"
                             variant="standard"
@@ -73,7 +74,7 @@ function AddressFrom(){
                             }}
                             label="비밀번호"
                             variant="standard"
-                            name="user_pwd"
+                            name="password"
                             fullWidth
                         />
                     </Grid>
@@ -133,7 +134,7 @@ function AddressFrom(){
                                 variant="standard"
                                 color={"error"}
                                 helperText="비밀번호가 동일하지 않습니다."
-                                name="user_pwd"
+                                name="password"
                                 fullWidth
                             />
                         }
@@ -150,33 +151,10 @@ function AddressFrom(){
                     </Grid>
                     <Grid item xs={12} sm={6}>
                         <TextField
-                            label="이메일"
-                            fullWidth
-                            variant="standard"
-                        />
-                    </Grid>
-                    <Grid item xs={12} sm={6}>
-                        <TextField
-                            required
-                            label="주소"
-                            fullWidth
-                            autoComplete="shipping postal-code"
-                            variant="standard"
-                        />
-                    </Grid>
-                    <Grid item xs={12} sm={12}>
-                        <TextField
-                            required
                             label="번호"
+                            type={"number"}
                             fullWidth
-                            autoComplete="shipping country"
                             variant="standard"
-                        />
-                    </Grid>
-                    <Grid item xs={12}>
-                        <FormControlLabel
-                            control={<Checkbox color="secondary" name="saveAddress" value="yes" />}
-                            label="개인정보동의"
                         />
                     </Grid>
                 </Grid>

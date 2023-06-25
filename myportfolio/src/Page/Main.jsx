@@ -1,14 +1,13 @@
 import {useNavigate} from "react-router-dom";
+import Home from "./Home/Home.jsx";
+import Drawer from "../Component/Drawer.jsx";
 
 function Main(){
-
     const navigate = useNavigate();
-
     return(
-        <div className="bg">
-            <button onClick={()=>{
-                navigate(`/sub`);
-            }}>sub</button>
+        <div>
+            <Drawer/>
+            <Home/>
         </div>
     )
 }
