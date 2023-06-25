@@ -1,0 +1,35 @@
+@font-face {
+	font-family: 'SUITE';
+	font-weight: 300;
+	src: local('SUITE Light'), url('src/Scss/font/Nomal-Font/SUITE-Light.woff2-Font/SUITE-Light.woff2') format('woff2');
+}
+@font-face {
+	font-family: 'SUITE';
+	font-weight: 400;
+	src: local('SUITE Regular'), url('src/Scss/font/Nomal-Font/SUITE-Regular.woff2ont/SUITE-Regular.woff2') format('woff2');
+}
+@font-face {
+	font-family: 'SUITE';
+	font-weight: 500;
+	src: local('SUITE Medium'), url('src/Scss/font/Nomal-Font/SUITE-Medium.woff2Font/SUITE-Medium.woff2') format('woff2');
+}
+@font-face {
+	font-family: 'SUITE';
+	font-weight: 600;
+	src: local('SUITE SemiBold'), url('src/Scss/font/Nomal-Font/SUITE-SemiBold.woff2nt/SUITE-SemiBold.woff2') format('woff2');
+}
+@font-face {
+	font-family: 'SUITE';
+	font-weight: 700;
+	src: local('SUITE Bold'), url('src/Scss/font/Nomal-Font/SUITE-Bold.woff2l-Font/SUITE-Bold.woff2') format('woff2');
+}
+@font-face {
+	font-family: 'SUITE';
+	font-weight: 800;
+	src: local('SUITE ExtraBold'), url('src/Scss/font/Nomal-Font/SUITE-ExtraBold.woff2t/SUITE-ExtraBold.woff2') format('woff2');
+}
+@font-face {
+	font-family: 'SUITE';
+	font-weight: 900;
+	src: local('SUITE Heavy'), url('src/Scss/font/Nomal-Font/SUITE-Heavy.woff2-Font/SUITE-Heavy.woff2') format('woff2');
+}

@@ -51,18 +51,23 @@ function Login(){
                 }}>
                     <Box
                         sx={{
-                            marginTop: 6,
+                            marginTop: 5,
                             display: 'flex',
                             flexDirection: 'column',
                             alignItems: 'center',
                         }}
                     >
-                        <Typography component="h1" variant="h5" style={{
-                            fontFamily: 'kotra'
+                        <Typography component="h1" variant="h4" style={{
+                            fontFamily: 'kotra',
+                            fontWeight: 'bold',
+                            paddingTop: "10px"
                         }}>
-                            Login
+                           LOGIN
                         </Typography>
-                        <Typography component="small" variant="small">
+                        <Typography component="small" variant="small" style={{
+                            fontFamily: 'NanumSquareNeo-Variable'
+                        }}>
+
                             Welcome To My Portfolio!
                         </Typography>
                         <Box component="form"  noValidate sx={{ mt: 1 }}>
